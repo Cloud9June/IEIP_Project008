@@ -3,7 +3,7 @@
 ul, li { list-style: none; }
 a { text-decoration: none; color: #fff; }
 table, th, td { border: 1px solid #000; text-align: center; }
-th, td { padding: 5px; }
+th, td { padding: 30px; }
 body { background: grey; }
 
 #header {
@@ -39,9 +39,13 @@ body { background: grey; }
 #section table {
 	margin: 0 auto;
 }
+#section > table > tbody > tr td.right{
+	text-align: right;
+}
 #section table.inputTable tr:not(:last-child) td {
 	text-align: left;
 }
+
 
 #footer {
 	width: 100%;

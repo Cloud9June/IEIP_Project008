@@ -23,7 +23,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="../css/style.css?ver=1">
+<link rel="stylesheet" href="../css/style.css?ver=5">
 </head>
 <body>
 	<jsp:include page="../include/header.jsp"></jsp:include>
@@ -31,7 +31,7 @@
 
 	<section id="section">
 		<h2>강사매출현황</h2>
-		<table>
+		<table> 
 			<thead>
 				<tr>
 					<th>강사코드</th>
@@ -47,8 +47,8 @@
 				<tr>
 					<td><%= rs.getString(1) %></td>
 					<td><%= rs.getString(2) %></td>
-					<td><%= rs.getString(3) %></td>
-					<td><%= rs.getString(4) %></td>
+					<td class="right"><%= rs.getString(3) %></td>
+					<td class="right"><%= rs.getString(4) %></td>
 				</tr>
 				<%
 					}
